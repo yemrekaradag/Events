@@ -8,7 +8,16 @@ Events
 
 In this example, we want the user to enter a number. If a character is entered, the program stops.
 
+Steps in event design
+1. Declare a delegate.
+2. Declare a variable of the delegate using the event keyword.
+3. Create an event-raising method in the Publisher class.
+4. Create a method (event handler) that performs the actions to be taken when an event occurs in the subscriber class.
+
+
 <img alt="events1" src="https://user-images.githubusercontent.com/107070882/205653726-27dd2334-a770-41ac-975d-267eba902fb8.png">
+
+<img alt="events2" src="https://user-images.githubusercontent.com/107070882/205654474-6fff6a08-0991-48cf-8736-677cb80e26e3.png">
 
 <hr>
 
@@ -20,4 +29,13 @@ Olaylar (Events)
 
 Bu örnekte kullanıcıdan sayı girmesini istiyoruz eğer tek sayı girerse olay tetikleniyor, çift girerse kullanıcıdan tekrar sayı girmesini istiyoruz. Eğer karakter girerse program duruyor.
 
+Olay tasarımındaki adımlar
+1. Bir delege deklare et.
+2. event anahtar kelimesi kullanarak delegenin bir değişkenini deklare et.
+3. Yayıncı sınıfta bir olay oluşturucu yöntem oluştur.
+4. Abone sınıfta olay oluştuğunda yapılacak aksiyonları yerine getiren bir yöntem oluştur (event handler).
+
 <img alt="events1" src="https://user-images.githubusercontent.com/107070882/205653726-27dd2334-a770-41ac-975d-267eba902fb8.png">
+
+<img alt="events2" src="https://user-images.githubusercontent.com/107070882/205654474-6fff6a08-0991-48cf-8736-677cb80e26e3.png">
+
